@@ -1,0 +1,33 @@
+#posts{
+    margin: 20px auto 20px;  
+}
+#post{
+    text-align: center;
+}
+#postButton{
+    margin-left: 10px;
+    background-color: #f56600;
+}
+/**Cards**/
+#card, #user{
+    box-shadow: 2px 2px 18px 3px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+#card button, #user button{
+    color: red;
+}
+#card .title, #user .title{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#card #profile, #user #profile{
+    background-color: #f56600;
+}
+#card #username, #user #username{
+    color: blue;
+    font-size: 1.1em;
+}
+/**User**/
+#user{
+    width: 70%;
+    margin: 40px auto 40px;
+}
